@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family:  'Livvic', sans-serif;
+}
+
+body {
+    background-color: rgb(162, 176, 186);
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+h1 {
+    text-align: center;
+    color: rgba(235, 44, 42.90);
+    background-color: white;
+    margin: 0;
+    padding: 15px;
+
+}
+
+.score p {
+    background-color: rgba(39, 143, 217, .70);
+    padding: 10px;
+    border: solid 1px black;
+    color: white;
+}
+.score {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-left: 25rem;
+    margin-right: 25rem;
+
+}
+
+.user-choices {
+    margin: 50px;
+    display: grid ;
+    grid-template-columns: repeat(3,1fr);
+    align-content: center;
+    justify-items: center;
+}
+
+.user-choices img {
+    border-radius: 50%;
+    background-color:rgba(15, 151, 240,.50);
+    height: 10rem;
+}
+.user-choices img:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+
+.result img {
+    height: 9.5rem;
+}
+
+ .result{
+     text-align: center;
+     display: none;
+     z-index: 1;
+ }
+
+#text-win {
+    color: green;
+}
+#text-lose {
+    color: red;
+}
+
+
+.restart {
+    text-align: center;
+    color: white;
+    background-color: rgba(39, 143, 217, .90);
+    margin-left: 32rem;
+    margin-right: 32rem;
+    border: solid 1px black;
+}
+
+.restart:hover {
+    background-color: rgba(39, 143, 217, .30);
+    cursor: pointer;
+}
